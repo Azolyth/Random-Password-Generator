@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#password-1,
+#password-2 {
+  border: 2px solid black;
+  width: 100px;
+  height: 40px;
+}
