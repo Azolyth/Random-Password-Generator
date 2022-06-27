@@ -6,9 +6,29 @@ body {
   margin: 0;
 }
 
-#password-1,
-#password-2 {
+.container {
   border: 2px solid black;
-  width: 100px;
-  height: 40px;
+  background: grey;
+  width: 700px;
+  height: 900px;
+  margin: 0 auto;
+}
+
+header {
+  border: 2px solid pink;
+  height: 375px;
+  margin-bottom: 40px;
+}
+
+#password-one,
+#password-two {
+  border: 2px solid black;
+  width: 200px;
+  height: 45px;
+  border-radius: 3px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
 }
