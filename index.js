@@ -9,7 +9,6 @@ const copyBtn = document.getElementById('copy-btn');
 const generatePassword = () => {
     getPasswordOne()
     getPasswordTwo()
-    console.log();
 }
 
 const getPasswordOne = () => {

@@ -1,34 +1,70 @@
+:root {
+  --primary: #1f2937;
+  --secondary: #273549;
+  --accent: #10b981;
+  --text-green: #55f991;
+  --background: #1c1c1c;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
+  background: var(--background);
+  font-family: 'Inter', sans-serif;
 }
 
 .container {
-  border: 2px solid black;
+  border: 2px solid #fff;
   background: grey;
-  width: 700px;
-  height: 900px;
-  margin: 0 auto;
+  width: 550px;
+  height: 550px;
+  margin: 64px auto;
+  background: var(--primary);
 }
 
 header {
-  border: 2px solid pink;
-  height: 375px;
+  border-bottom: 0.1px solid #ccc;
+  width: 400px;
+  height: 270px;
   margin-bottom: 40px;
+  color: #fff;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 2.7rem;
+  margin-top: 110px;
+}
+
+button {
+  color: #fff;
+  background: var(--accent);
+  border: none;
+  padding: 9px 17px 9px 15px;
+  border-radius: 3px;
+  font-family: 'Inter', sans-serif;
 }
 
 #password-one,
 #password-two {
-  border: 2px solid black;
-  width: 200px;
-  height: 45px;
+  text-align: center;
+  color: var(--accent);
+  width: 170px;
+  height: 37px;
   border-radius: 3px;
+  margin-top: 34px;
+  background: var(--secondary);
 }
 
 main {
   display: flex;
   justify-content: space-around;
+}
+
+span {
+  color: var(--accent);
 }
