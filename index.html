@@ -16,19 +16,21 @@
 
   <body>
     <div class="container">
-      <header>
+      <main>
         <h1>Generate a <span>random password</span></h1>
         <p>Never use an insecure password again</p>
-        <button id="generate-btn">Generate Password</button>
-        <label for="password-length">Password Length</label>
-        <input id="password-length" type="number" min="8" max="15" />
-      </header>
-      <main>
-        <div id="password-one"></div>
-        <!-- <button id="copy-btn">Copy</button> -->
-        <div id="password-two"></div>
-        <!-- <button>Copy</button> -->
+
+        <div class="password-length">
+          <button id="generate-btn">Generate Password</button>
+          <label for="password-length">Password Length</label>
+          <input id="password-length" type="number" min="8" max="15" />
+        </div>
       </main>
+
+      <section class="passwords">
+        <div id="password-one"></div>
+        <div id="password-two"></div>
+      </section>
     </div>
     <script src="/index.js"></script>
   </body>
